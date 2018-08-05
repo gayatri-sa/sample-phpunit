@@ -5,7 +5,7 @@ class StackTest extends TestCase
 {
     public function testPushAndPop()
     {
-        $stack = ['Error'];
+        $stack = [];
         $this->assertEquals(0, count($stack));
 
         array_push($stack, 'foo');
